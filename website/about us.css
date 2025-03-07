@@ -1,0 +1,53 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+   margin: 0;
+   padding: 0%;
+}
+.navbar {
+    height: 70px;
+    width: 100%;
+    background-color: rgb(70, 70, 70);
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+button {
+    font-size: 50px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    color: ghostwhite;
+}
+     
+.name{
+    font-size: 40px;
+    color: white;
+   
+}
+
+.logo{
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    background-color: blue;
+/* background-color: green; */
+background-image: url(2.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.top{
+    display: flex;
+ flex-direction: row;   
+ align-items: center;
+ gap: 20px;
+ /* background-color: green; */
+ background-image: url(1.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+}
